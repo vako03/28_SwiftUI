@@ -20,14 +20,6 @@ class ContentViewModel: ObservableObject {
         ContentInfo(title: "Title 1", description: "Description 1"),
         ContentInfo(title: "Title 2", description: "Description 2"),
         ContentInfo(title: "Title 1", description: "Description 1"),
-        ContentInfo(title: "Title 2", description: "Description 2"),
-        ContentInfo(title: "Title 1", description: "Description 1"),
-        ContentInfo(title: "Title 2", description: "Description 2"),
-        ContentInfo(title: "Title 1", description: "Description 1"),
-        ContentInfo(title: "Title 2", description: "Description 2"),
-        ContentInfo(title: "Title 1", description: "Description 1"),
-        ContentInfo(title: "Title 2", description: "Description 2"),
         
-        // Add more contentInfos as needed
     ]
 }

@@ -59,12 +59,11 @@
 		1A7883982BFDC51800680291 /* 28_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				1A7883B32BFE585200680291 /* app */,
 				1A7883A92BFDF3A500680291 /* Model */,
 				1A7883AC2BFDF3C500680291 /* ViewModel */,
-				1A7883992BFDC51800680291 /* _8_SwiftUIApp.swift */,
-				1A78839B2BFDC51800680291 /* ContentView.swift */,
-				1A7883A72BFDC5C800680291 /* extensionColor.swift */,
-				1A78839D2BFDC51900680291 /* Assets.xcassets */,
+				1A7883B12BFE582D00680291 /* Views */,
+				1A7883B22BFE583E00680291 /* Extensions */,
 				1A78839F2BFDC51900680291 /* Preview Content */,
 			);
 			path = 28_SwiftUI;
@@ -73,6 +72,7 @@
 		1A78839F2BFDC51900680291 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				1A78839D2BFDC51900680291 /* Assets.xcassets */,
 				1A7883A02BFDC51900680291 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -82,7 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				1A7883AA2BFDF3B600680291 /* ContentInfo.swift */,
-				1A7883AF2BFDF3FE00680291 /* CellView.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -93,6 +92,31 @@
 				1A7883AD2BFDF3D600680291 /* ContentViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1A7883B12BFE582D00680291 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1A78839B2BFDC51800680291 /* ContentView.swift */,
+				1A7883AF2BFDF3FE00680291 /* CellView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1A7883B22BFE583E00680291 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1A7883A72BFDC5C800680291 /* extensionColor.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1A7883B32BFE585200680291 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				1A7883992BFDC51800680291 /* _8_SwiftUIApp.swift */,
+			);
+			path = app;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
